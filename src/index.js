@@ -10,6 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
   <Router>
+    <p>This is passed to testing</p>
     <Navbar/>
     <Routes>
       <Route path='/register' element={<Register/>} />
